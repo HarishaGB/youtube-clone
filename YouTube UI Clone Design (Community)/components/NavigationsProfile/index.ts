@@ -1,0 +1,2 @@
+export {NavigationsProfile} from './NavigationsProfile';
+

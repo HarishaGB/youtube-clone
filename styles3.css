@@ -1,0 +1,130 @@
+*{
+    background-color: transparent !important;
+}
+.content{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.sidebar-channel, .sidesections, .navigations, .navigations li, .combo, .combo img, .combo span, .sect-title{
+    background-color: #212121 !important;
+}
+
+.cover img{
+    width: 100%;
+    height: 24vh;
+    
+}
+.content{
+    background-color: black !important;
+}
+.channelhandle{
+    background-color: #303030 !important;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 2023;
+}
+.channeldetailshandle{
+    padding-top: 1.5rem;
+    justify-content: space-between;
+    padding-inline: 1.5rem;
+    
+}
+.subscribe-btn{
+    border: none;
+    background-color: red !important;
+    color: white !important;
+    width: 7rem;
+    font-size: 0.9rem;
+    transition: all 60ms ease;
+}
+.subscribe-btn:active{
+    background-color: white !important;
+    color: black !important;
+}
+.channelmain{
+    gap: 1.4rem;
+}
+.channelmain img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.channelmenu{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1.5rem;
+}
+.menu{
+    display: flex;
+    gap:2.8rem;
+    /* margin-bottom: 1rem; */
+}
+.menuitems{
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    
+}
+.bannersection{
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+.bannervideocard{
+    width: 98%;
+    margin-inline: auto;
+}
+.bannervideotext{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    flex: 1;
+}
+.bannertitle{
+    font-size: 1.3rem;
+}
+.videoplayer{
+    flex: 0.5;
+}
+.contenthandler{
+    margin-inline: 40px;
+}
+@media screen and (max-width: 768px){
+    .channelmenu{
+        overflow-x: scroll;
+    }
+    .channelmenu::-webkit-scrollbar{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .subscribe-btn{
+        height: 44px;
+    }
+    .channeldetailshandle{
+        display: none;
+        padding-inline: 0;
+    }
+    .channelmain{
+        gap: 0.4rem;
+    }
+    .channelhandle{
+        gap: 0;
+    }
+    h5{
+        font-size: 0.8rem;
+    }
+    .channelnme p{
+        font-size: 12px;
+    }
+    .channelmenu{
+        padding-inline: 0.5rem;
+    }
+    .menu{
+        gap: 0.8rem;
+    }
+}

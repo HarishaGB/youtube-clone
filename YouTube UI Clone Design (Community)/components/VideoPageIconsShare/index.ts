@@ -1,0 +1,2 @@
+export {VideoPageIconsShare} from './VideoPageIconsShare';
+

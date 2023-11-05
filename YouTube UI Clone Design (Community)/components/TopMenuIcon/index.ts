@@ -1,0 +1,2 @@
+export {TopMenuIcon} from './TopMenuIcon';
+

@@ -1,0 +1,158 @@
+.navbar{
+    position: sticky !important;
+    top: 0;
+}
+.maincont{
+    padding-inline: 4rem;
+    height: 90vh;
+    gap: 1.5rem;
+    padding-top: 20px;
+}
+.videocontain{
+    flex: 1.4;
+    overflow-y: scroll;
+    
+}
+.videocontain::-webkit-scrollbar{
+    display: none !important;
+}
+.suggestvideo::-webkit-scrollbar{
+    display: none !important;
+}
+.suggestvideo{
+    flex: 0.5;
+    overflow-y: scroll;
+}
+.thumbnail-play{
+    width: 50%;
+    height: 100px;
+}
+.mycard-play{
+    display: flex;
+    position: relative;
+    width: 27rem;
+    overflow: hidden;
+    gap: 0.4rem;
+}
+.duration{
+    top: 79px !important;
+    left: 6.2rem !important;
+}
+
+#comments-container{
+    /* overflow: hidden; */
+    padding-right: 3.2rem;
+    
+}
+.comment{
+    gap: 0.8rem !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    padding-right: 5rem;
+}
+.like-unlike{
+    gap: 1.5rem !important;
+}
+.currVCLogo>img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.titleInfo{
+    line-height: 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    border-bottom: 1px solid gray;
+    margin-bottom: 2rem;
+
+}
+.videoTitle{
+    font-size: 20px;
+}
+.subTitleDiv{
+    justify-content: space-between;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.likeshare{
+    display: flex;
+    gap: 0.8rem;
+}
+.cmmntimg>img{
+    width: rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.titleInfos{
+    gap: 0.8rem;
+    border-bottom: 1px solid gray;
+    margin-bottom: 1.3rem;
+    padding-bottom: 10px;
+
+}
+.moreinfo{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+.channeltitle{
+    font-size: 16px;
+}
+.channelsub{
+    justify-content: space-between;
+    width: 100%;
+}
+#subscribe-btn{
+    border: none;
+    background-color: red !important;
+    color: white !important;
+    font-weight: bolder !important;
+    width: 8rem;
+    font-size: 1rem;
+    transition: all 60ms ease;
+}
+#subscribe-btn:active{
+    background-color: white !important;
+    color: black !important;
+}
+.likecombo{
+    gap: 0.6rem;
+}
+
+@media screen and (max-width : 768px) {
+    .maincont {
+        padding-inline: 1rem;
+    }
+    iframe {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 425px) {
+    .maincont {
+        flex-direction: column;
+    }
+    .videocontain, .suggestvideo{
+        flex: 0.5;
+    }
+    iframe{
+        height: 70%;
+    }
+    .videoTitle{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width : 320px){
+    iframe{
+        height: 100%;
+    }
+    .videocontain{
+        flex: 0.7;
+    }
+    #subscribe-btn{
+        height: 44px;
+    }
+}

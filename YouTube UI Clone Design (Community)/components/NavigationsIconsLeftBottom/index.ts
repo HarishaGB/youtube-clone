@@ -1,0 +1,2 @@
+export {NavigationsIconsLeftBottom} from './NavigationsIconsLeftBottom';
+

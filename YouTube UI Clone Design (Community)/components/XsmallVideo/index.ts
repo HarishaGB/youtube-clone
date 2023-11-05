@@ -1,0 +1,2 @@
+export {XsmallVideo} from './XsmallVideo';
+

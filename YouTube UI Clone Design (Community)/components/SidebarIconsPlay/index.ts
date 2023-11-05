@@ -1,0 +1,2 @@
+export {SidebarIconsPlay} from './SidebarIconsPlay';
+

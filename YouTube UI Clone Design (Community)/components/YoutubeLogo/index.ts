@@ -1,0 +1,2 @@
+export {YoutubeLogo} from './YoutubeLogo';
+

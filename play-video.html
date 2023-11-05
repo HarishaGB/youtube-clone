@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="video plays">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+
+</head>
+
+<body>  
+    <main>
+        <nav>
+            <div class="navbar d-flex">
+                <div id="nav-one" class="nav-one">
+                    <img src="./public/images/navigations-navigations-yt-button-hamburger.png" alt="menu" id="menu">
+                    <a href="./index.html"></a><img src="./Youtube-Logo.svg" alt="Youtube-Logo" id="YT-logo"></a>
+                </div>
+                <div id="nav-two" class="nav-one d-flex">
+                    <div class="searchbar d-flex">
+                        <input type="text" placeholder="Search" id="searchbox">
+                        <button type="submit" id="searchicon"><i class="fas fa-search searchimg"></i></button>
+                    </div>
+                    <!-- <img src="./magnifying-glass-solid.svg" alt="Magnifiy Glass"/> -->
+                    <div class="voice">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+
+                </div>
+                <div id="nav-three" class="nav-one d-flex">
+                    <ul class="navnavigation firstnavigation d-flex">
+                        <li><img src="./upload/Navigations/Navigations/Group.svg" alt="Upload Video"></li>
+                        <li><img src="./GRID.svg" alt="Grid Meny"></li>
+                        <li><img src="./NOTIF.svg" alt="Notifications"></li>
+                        <li><img src="./user/Navigations/Navigations/User-Avatar.png" alt="User-Avatar"
+                                id="User-Avatar"></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="maincont d-flex">
+            <div class="videocontain">
+                <div id="video-placeholder"></div>
+                <div id="comments-container"></div>
+            </div>
+            <div class="suggestvideo">
+                <div class="mycards" id="mycards">
+                    <!-- <div class="mycard-play">
+                        <span class="duration gray">15:35</span>
+                        <img src="https://picsum.photos/250/150" alt="Video thumbnail"
+                                class="thumbnail-play">
+                        <div class="titlebody d-flex">
+                            <div class="titletexts">
+                                <p><a href="#" class="videolink">Title of the video</a></p>
+                                <p class="gray channelNameText"><a href="" class="channellink"></a>James Gouse</p>
+                                <p class="gray channelNameText">15k Views . <span class="timesold gray">1 Week
+                                        ago</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mycard-play">
+                        <span class="duration gray">15:35</span>
+                        <img src="https://picsum.photos/250/150" alt="Video thumbnail"
+                                class="thumbnail-play">
+                        <div class="titlebody d-flex">
+                            <div class="titletexts">
+                                <p><a href="#" class="videolink">Title of the video</a></p>
+                                <p class="gray channelNameText"><a href="" class="channellink"></a>James Gouse</p>
+                                <p class="gray channelNameText">15k Views . <span class="timesold gray">1 Week
+                                        ago</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mycard-play">
+                        <span class="duration gray">15:35</span>
+                        <img src="https://picsum.photos/250/150" alt="Video thumbnail"
+                                class="thumbnail-play">
+                        <div class="titlebody d-flex">
+                            <div class="titletexts">
+                                <p><a href="#" class="videolink">Title of the video</a></p>
+                                <p class="gray channelNameText"><a href="" class="channellink"></a>James Gouse</p>
+                                <p class="gray channelNameText">15k Views . <span class="timesold gray">1 Week
+                                        ago</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mycard-play">
+                        <span class="duration gray">15:35</span>
+                        <img src="https://picsum.photos/250/150" alt="Video thumbnail"
+                                class="thumbnail-play">
+                        <div class="titlebody d-flex">
+                            <div class="titletexts">
+                                <p><a href="#" class="videolink">Title of the video</a></p>
+                                <p class="gray channelNameText"><a href="" class="channellink"></a>James Gouse</p>
+                                <p class="gray channelNameText">15k Views . <span class="timesold gray">1 Week
+                                        ago</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mycard-play">
+                        <span class="duration gray">15:35</span>
+                        <img src="https://picsum.photos/250/150" alt="Video thumbnail"
+                                class="thumbnail-play">
+                        <div class="titlebody d-flex">
+                            <div class="titletexts">
+                                <p><a href="#" class="videolink">Title of the video</a></p>
+                                <p class="gray channelNameText"><a href="" class="channellink"></a>James Gouse</p>
+                                <p class="gray channelNameText">15k Views . <span class="timesold gray">1 Week
+                                        ago</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mycard-play">
+                        <span class="duration gray">15:35</span>
+                        <img src="https://picsum.photos/250/150" alt="Video thumbnail"
+                                class="thumbnail-play">
+                        <div class="titlebody d-flex">
+                            <div class="titletexts">
+                                <p><a href="#" class="videolink">Title of the video</a></p>
+                                <p class="gray channelNameText"><a href="" class="channellink"></a>James Gouse</p>
+                                <p class="gray channelNameText">15k Views . <span class="timesold gray">1 Week
+                                        ago</span></p>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="./play-video.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

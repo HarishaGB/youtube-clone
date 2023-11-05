@@ -1,0 +1,2 @@
+export {SmalVideo} from './SmalVideo';
+

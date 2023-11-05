@@ -1,0 +1,2 @@
+export {VideoPageIconsLiked} from './VideoPageIconsLiked';
+

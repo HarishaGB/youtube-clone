@@ -1,0 +1,2 @@
+export {SidebarMenuTitle} from './SidebarMenuTitle';
+

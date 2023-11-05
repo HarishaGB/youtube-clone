@@ -1,0 +1,2 @@
+export {FooterItemsItem} from './FooterItemsItem';
+
